@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "/xTo/E9DlPQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kaka2\\Documents\\PROJETO_ARDUINO_CHICO\\MeuProjeto\\MeuProjeto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaka2\\.nuget\\packages\\klusterg.autogui\\1.2.0\\klusterg.autogui.1.2.0.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.3\\runtime.android-arm.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\9.0.3\\runtime.android-arm64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\9.0.3\\runtime.android-x64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\9.0.3\\runtime.android-x86.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\9.0.3\\runtime.linux-arm.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\9.0.3\\runtime.linux-arm64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\9.0.3\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\9.0.3\\runtime.linux-bionic-x64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\9.0.3\\runtime.linux-musl-arm.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\9.0.3\\runtime.linux-musl-arm64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\9.0.3\\runtime.linux-musl-x64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\9.0.3\\runtime.linux-x64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\9.0.3\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\9.0.3\\runtime.maccatalyst-x64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.native.system.io.ports\\9.0.3\\runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\9.0.3\\runtime.osx-arm64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\9.0.3\\runtime.osx-x64.runtime.native.system.io.ports.9.0.3.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\kaka2\\.nuget\\packages\\system.io.ports\\9.0.3\\system.io.ports.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

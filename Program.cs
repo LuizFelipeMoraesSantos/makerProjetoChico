@@ -1,53 +1,54 @@
-﻿using System;
-using System.IO.Ports;
-using KlusterG.AutoGui;
-using KlusterG.AutoGui.InternalKeys;
+﻿#include "Keyboard.h"
 
-namespace MeuProjeto
-{
-    internal class Program
-    {
-        
-        private static SerialPort serialPort;
+const int botao1 = 7;
+const int botao2 = 6;
+const int botao3 = 5;
+const int botao4 = 4;
+const int luz = 13;
 
-        static void Main(string[] args)
-        {
-            
-            serialPort = new SerialPort("COM3", 9600); 
-            serialPort.DataReceived += SerialPort_DataReceived;
-            serialPort.Open();
 
-            Console.WriteLine("Waiting for Arduino commands...");
-            Console.ReadLine(); 
-        }
 
-        private static void SerialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
-        {
-            
-            string data = serialPort.ReadLine().Trim();
+void setup() {
+  pinMode(botao1, INPUT_PULLUP);
+  pinMode(botao2, INPUT_PULLUP);
+  pinMode(botao3, INPUT_PULLUP);
+  pinMode(botao4, INPUT_PULLUP);
+  Keyboard.begin();
 
-            switch (data)
-            {
-                case "7":
-                    Exec.KeyPress(KKeys.A);
-                    Console.WriteLine("Button 7 → Key A");
-                    break;
-                case "6":
-                    Exec.KeyPress(KKeys.B);
-                    Console.WriteLine("Button 6 → Key B");
-                    break;
-                case "5":
-                    Exec.KeyPress(KKeys.C);
-                    Console.WriteLine("Button 5 → Key C");
-                    break;
-                case "4":
-                    Exec.KeyPress(KKeys.D);
-                    Console.WriteLine("Button 4 → Key D");
-                    break;
-                default:
-                    Console.WriteLine("Unknown command: " + data);
-                    break;
-            }
-        }
-    }
+  Serial.begin(9600);
+}
+
+void loop() {
+
+  if(digitalRead(botao1) == LOW){
+    Keyboard.press('A');
+    digitalWrite(luz, HIGH);
+    Serial.println()("Botão 1 funcionando");// excluir linha depois de fazer teste
+    delay(50);
+  }
+
+  if(digitalRead(botao2) == LOW){
+    Keyboard.press('B');
+    digitalWrite(luz, HIGH);
+    Serial.println()("Botão 2 funcionando");// excluir linha depois de fazer teste
+    delay(50);
+  }
+
+  if(digitalRead(botao3) == LOW){
+    Keyboard.press('C');
+    digitalWrite(luz, HIGH);
+    Serial.println("Botão 3 funcionando");// excluir linha depois de fazer teste
+    delay(50);
+  }
+
+  if(digitalRead(botao4) == LOW){
+    Keyboard.press('D');
+    digitalWrite(luz, HIGH);
+    Serial.println("Botão 4 funcionando");// excluir linha depois de fazer teste
+    delay(50);
+  }
+
+//arranja uma forma de resetar todos os botões quando acabar as condicionais.
+  
+  
 }
